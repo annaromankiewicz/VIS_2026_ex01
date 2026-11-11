@@ -66,3 +66,13 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+build/
+cmake-build-debug/
+.gradle/
+.idea/
+.DS_Store
